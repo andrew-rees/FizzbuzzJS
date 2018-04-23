@@ -4,21 +4,16 @@ function printnumbers ()
 {
     for (i=1; i<=100; i++)
     {
-        // so, if both (3 and 5) divide exactly into 'i', then show 'fizzbuzz'
-        if ((i%3 == 0) && (i%5==0)){
-            console.log("fizzbuzz");
+        //so, if the % of the value of 'i'/3 = 0, show 'fizz'
+        if (i%3 == 0){
+            console.log("fizz");
         } 
         // or, if the % of the value of 'i'/5 = 0, show 'buzz'
         else if (i%5 == 0){
             console.log("buzz");
         }
-        //or, if the % of the value of 'i'/3 = 0, show 'fizz'//
-        else if (i%3 == 0)
-        {
-            console.log("fizz")
-        }
-            //otherwise, print the value of 'i'
         else 
+         //otherwise, print the value of 'i'
         {
             console.log(i)
         }
