@@ -35,6 +35,7 @@ function printnumbers ()
         if (output.length == 0){
             output.push (i);
         }
+        //output to the console, which naturally includes the [] of the array/list
         console.log(output.join(""));
     };
 }
